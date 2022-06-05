@@ -28,6 +28,7 @@ while not False:
     print(f"{' ' .join(display)}")
 
     if guess not in chosen_word:
+        print(f"The letter '{guess}' not in the word")
 
         lives -= 1
         print(f"you have {lives} lives left")
